@@ -51,7 +51,13 @@ public class MyClass {
 			//System.out.println(Student.getNoOfStudents());
 			
 			*/
+			Rectangle rec = new Rectangle();
+			Triangle tri = new Triangle();
+			rec.setParameters(10, 20);
+			tri.setParameters(10, 20);
 			
+			System.out.println(rec.area());
+			System.out.println(tri.area());
 	}
 
 }
